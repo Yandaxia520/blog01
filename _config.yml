@@ -100,15 +100,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repository:
-      # github: git@github.com:anzhiyu-c/anzhiyu-c.github.io.git  #用户名@服务器Ip:git仓库位置
-      github: 
-    # branch: main
-  # - type: baidu_url_submitter # 这是新加的百度主动推送
+  type: git
+ 
 
 # 文章链接转数字或字母：https://github.com/rozbo/hexo-abbrlink
 # abbrlink:
