@@ -56,8 +56,8 @@ social:
 favicon: /image/姜饼小人.png
 
 avatar:
-  img: /img/butterfly-icon.png
-  effect: false
+  img: /image/皮卡丘.jpg
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
