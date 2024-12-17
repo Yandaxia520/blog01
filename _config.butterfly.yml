@@ -66,7 +66,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: transparent
 
 # The banner image of archive page
 archive_img:
@@ -88,11 +88,11 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background:
+background: url(https://www.helloimg.com/i/2024/12/17/67616999e3677.png)
 
 cover:
   # Disable the cover or not
@@ -1032,9 +1032,14 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    #自定义css
+    - <link rel="stylesheet" href="/css/modify.css">
+    - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
     # aplayer音乐
+    
+    - <script defer src="/js/light.js"></script> # 霓虹灯(必须defer否则有时候会不生效)
     - <div class="aplayer no-destroy" data-id="9418685528" data-server="netease" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div>
 
 # CDN Settings
