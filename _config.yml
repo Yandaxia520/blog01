@@ -107,19 +107,19 @@ deploy:
     repository:
       # github: git@github.com:anzhiyu-c/anzhiyu-c.github.io.git  #用户名@服务器Ip:git仓库位置
       github: 
-    branch: main
+    # branch: main
   # - type: baidu_url_submitter # 这是新加的百度主动推送
 
 # 文章链接转数字或字母：https://github.com/rozbo/hexo-abbrlink
-abbrlink:
-	alg: crc16   #算法： crc16(default) and crc32
-	rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+# abbrlink:
+	# alg: crc16   #算法： crc16(default) and crc32
+	# rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
 
 # 本地搜索：https://github.com/wzpan/hexo-generator-search
-search:
-  path: search.xml
-  field: all
-  content: true
+# search:
+#   path: search.xml
+#   field: all
+#   content: true
 
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
