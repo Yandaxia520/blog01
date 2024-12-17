@@ -19,6 +19,7 @@ nav:
 menu:
   Home: / || fas fa-home
   番剧: /bangumis/index.html || fas fa-home
+  相册: /album/ || fas fa-solid fa-images
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
