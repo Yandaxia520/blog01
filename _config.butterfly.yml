@@ -63,10 +63,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /image/好看.jpg
 
 # The banner image of index page
-index_img: transparent
+index_img: /image/好看.jpg
 
 # The banner image of archive page
 archive_img:
@@ -144,13 +144,17 @@ post_meta:
 # The position of site info, eg: 300px/300em/300rem/10%
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 400px
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 200 # type speed in milliseconds
+  backSpeed: 800 # backspacing speed in milliseconds
+  loop: true
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -161,9 +165,11 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: false
+  source: true
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 自小刺头深草里 &#44; 而今渐觉出蓬蒿
+    - 时人不识凌云木 &#44; 直待凌云始道高
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
