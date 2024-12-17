@@ -47,7 +47,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fas fa-envelope: https://www.runoob.com/ || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -773,7 +773,7 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
