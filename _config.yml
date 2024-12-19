@@ -4,9 +4,9 @@
 
 # Site
 title: 严梓伦
-subtitle: '生活明朗 万物可爱'
+subtitle: 生活明朗 万物可爱
 description: '生活明朗,万物可爱.'
-keywords: 严梓伦,严梓伦的博客,博客,严梓伦博客,严梓伦,Blog,yanzilun,安知鱼`Blog,hexo,YANZILUN, HEXO yanzilun,Blog,yanzilun`Blog,💖,严,严梓,严梓伦,In严梓伦,Go严梓伦,yanzilun
+keywords: 严梓伦,严梓伦的博客,博客,严梓伦博客,严梓伦,Blog,yanzilun,严梓伦`Blog,hexo,YANZILUN, HEXO yanzilun,Blog,yanzilun`Blog,💖,严,严梓,严梓伦,In严梓伦,Go严梓伦,yanzilun
 author: 严梓伦
 language: zh-CN
 timezone:
@@ -52,13 +52,25 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+#highlight:
+#  enable: true
+ # line_number: true
+#  auto_detect: false
+ # tab_replace: ''
+  #wrap: true
+ # hljs: false
+ # Code Blocks (代码块相关)
+# --------------------------------------
+highlight_theme: darker # darker / pale night / light / ocean / false
+highlight_height_limit: false # 单位：像素
+code_word_wrap: true
+# 高亮工具栏
+highlight_theme_macStyle: true # 使用 Mac 风格
+highlight_copy: true # 复制按钮
+highlight_lang: true # 显示代码语言
+highlight_shrink: false # true: 收缩代码块 / false: 展开代码块 | none: 展开代码块并隐藏按钮
+highlight_fullpage: true # true: 添加切换全屏的按钮
+
 prismjs:
   enable: false
   preprocess: true
@@ -142,7 +154,7 @@ live2d:
     width: 150 #控制看板娘大小
     height: 300 #控制看板娘大小
   mobile:
-    show: false # 手机中是否展示
+    show: true # 手机中是否展示
 
 # https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
