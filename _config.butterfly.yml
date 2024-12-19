@@ -61,7 +61,7 @@ avatar:
   effect: true
 
 # Disable all banner images
-disable_top_img: false
+disable_top_img: true
 
 # If the banner of page not setting, it will show the default_top_img
 default_top_img: /image/好看.jpg
@@ -93,7 +93,7 @@ footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: url(https://www.helloimg.com/i/2024/12/17/67616999e3677.png)
+background: ./img/test.jpeg
 
 cover:
   # Disable the cover or not
@@ -149,13 +149,9 @@ index_top_img_height: 400px
 
 # The subtitle on homepage
 subtitle:
-  enable: true
+  enable: false
   # Typewriter Effect
   effect: true
-  startDelay: 300 # time before typing starts in milliseconds
-  typeSpeed: 200 # type speed in milliseconds
-  backSpeed: 800 # backspacing speed in milliseconds
-  loop: true
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -166,11 +162,9 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: true
+  source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 自小刺头深草里 &#44; 而今渐觉出蓬蒿
-    - 时人不识凌云木 &#44; 直待凌云始道高
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -527,7 +521,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Waline
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -536,7 +530,7 @@ comments:
   # Display comment count in post's top_img
   count: false
   # Display comment count in Home Page
-  card_post_count: false
+  card_post_count: true
 
 # Disqus
 # https://disqus.com/
@@ -580,14 +574,15 @@ valine:
   visitor: false
   option:
 
-# Waline - A simple comment system with backend support fork from Valine
-# https://waline.js.org/
 waline:
-  serverURL:
+  serverURL: https://ydxcomments.netlify.app/.netlify/functions/comment
   bg:
   # Use Waline pageview count as the page view count
-  pageview: false
+  pageview: true
   option:
+    meta: ["nick", "mail", "link"]
+    requiredMeta: ["nick", "mail"]
+    copyright: false
 
 # Utterances
 # https://utteranc.es/
@@ -1057,7 +1052,7 @@ CDN:
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: jsdelivr
+  third_party_provider: unpkg
 
   # Add version number to url, true or false
   version: false

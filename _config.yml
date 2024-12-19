@@ -12,6 +12,14 @@ language: zh-CN
 timezone:
 email: 1533826669@qq.com
 
+
+hexo_pro:
+  username: admin
+  password: 123
+  avatar: https://tse4-mm.cn.bing.net/th/id/OIP-C.3EhhnyLvBNm8JKQB811tUwHaEc?rs=1&pid=ImgDetMain
+  secret: 123
+
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://anheyu.com
@@ -200,3 +208,4 @@ cinema: # 追剧设置
 aplayer:
   meting: true
   asset_inject: false
+
