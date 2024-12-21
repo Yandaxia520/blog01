@@ -9,6 +9,8 @@
 # Navigation Settings
 # --------------------------------------
 
+
+
 nav:
   # Navigation bar logo image
   logo:
@@ -217,12 +219,12 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
-  text:
+  enable: true
+  text: 感谢支持
   QR_code:
-    # - img: /img/wechat.jpg
+    - img: /image/wechatpay.jpg
     #   link:
-    #   text: wechat
+    #    text: wechat
     # - img: /img/alipay.jpg
     #   link:
     #   text: alipay
@@ -1054,7 +1056,7 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
     # aplayer音乐
-    
+    - <script defer src="https://cdn.jsdelivr.net/combine/npm/jquery@latest/dist/jquery.min.js,gh/weilining/jsdelivr/jquery/circlemagic/circlemagic.min.js,gh/weilining/jsdelivr@latest/jquery/circlemagic/butterflycirclemagic.js"></script>
     - <script defer src="/js/light.js"></script> # 霓虹灯(必须defer否则有时候会不生效)
     - <div class="aplayer no-destroy" data-id="9418685528" data-server="netease" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div>
 
