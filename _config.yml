@@ -12,19 +12,6 @@ language: zh-CN
 timezone:
 email: 1533826669@qq.com
 
-# Reward (Donate)
-# Front-matter variable (unsupport animation).
-reward_settings:
-  # If true, reward will be displayed in every article by default.
-  enable: true
-  animation: false
-  comment: 坚持原创分享，您的支持将鼓励我继续创作更多优质内容！
-
-reward:
-  wechatpay: /image/wechatpay.jpg
-  #alipay: /images/alipay.png
-  #paypal: /images/paypal.png
-  #bitcoin: /images/bitcoin.png
 hexo_pro:
 
   username: admin
@@ -234,3 +221,16 @@ aplayer:
   meting: true
   asset_inject: false
 
+# hexo-douban
+douban:
+  id: yanzilunshuku00  # 你的豆瓣ID
+  book:
+    title: '那些年，我翻阅过的书'
+    quote: '思想和身体，总有一个在路上'
+  movie:
+    title: '那些年，我追过的电影'
+    quote: '过去、现在、和未来'
+  game:
+    title: '那些年，我玩过的游戏'
+    quote: '还记得你曾经的游戏角色吗'
+  timeout: 10000 

@@ -21,6 +21,10 @@ nav:
 menu:
   Home: / || fas fa-home
   番剧: /bangumis/index.html || fas fa-home
+  娱乐||fas fa-list:
+      电影: /movies/ || fas fa-film
+      游戏: /games/ || fas fa-gamepad
+      书籍: /books/ || fas fa-book
   相册: /album/ || fas fa-solid fa-images
   后台: /pro/ || fas-video
   # List||fas fa-list:
@@ -30,7 +34,6 @@ menu:
 # --------------------------------------
 # Code Blocks Settings
 # --------------------------------------
-
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
   theme: light
@@ -873,7 +876,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999
   mobile: false
 
@@ -1051,6 +1054,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     #自定义css
+    - <link rel="stylesheet" href="/css/mouse.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
   bottom:
