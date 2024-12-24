@@ -413,7 +413,7 @@ rightside_item_order:
   # Default: readmode,translate,darkmode,hideAside
   hide:
   # Default: toc,chat,comment
-  show:
+  show: 
 
 # --------------------------------------
 # Global Settings
@@ -661,17 +661,17 @@ artalk:
 # Chat Services
 # --------------------------------------
 
-chat:
+chat: 
   # Choose: chatra/tidio/crisp
-  # Leave it empty if you don't need chat
-  use: Chat Button [recommend]
-  # It will create a button in the bottom right corner of website, and hide the origin button
+  # Leave it empty if you don't n...
+  # It will cre
+  use: chatra
   rightside_button: true
-  # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
+  # The origin chat button is dis...
   button_hide_show: false
 
 # https://chatra.io/
-chatra: true
+chatra: 
   id: qFkEqx8KcPpZEAdxf
 
 # https://www.tidio.com/
