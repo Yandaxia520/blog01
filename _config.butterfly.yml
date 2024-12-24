@@ -671,8 +671,8 @@ chat:
   button_hide_show: false
 
 # https://chatra.io/
-chatra:
-  id:
+chatra: true
+  id: qFkEqx8KcPpZEAdxf
 
 # https://www.tidio.com/
 tidio:
