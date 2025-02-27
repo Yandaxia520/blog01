@@ -15,7 +15,7 @@
     "cheerio": "^1.0.0",
     "hexo": "^7.0.0",
     "hexo-admin": "^2.3.0",
-    "hexo-bilibili-bangumi": "^1.10.7",
+    "hexo-bilibili-bangumi": "^1.10.8",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
